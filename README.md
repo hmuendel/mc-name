@@ -26,10 +26,10 @@ This is a simple plist which gets loaded into launchd and runs every hour.
 curl -o ~/Downloads/me.muendelein.mcname.plist \
 https://raw.githubusercontent.com/hmuendel/mc-name/master/me.muendelein.mcname.xml
 
-sudo cp ~/Downloads/me.muendelein.mcname.zerowidth.launched.randomname.plist \
-/Library/LaunchDaemons/me.muendelein.randomname.plist
+sudo cp ~/Downloads/me.muendelein.mcname.plist \
+/Library/LaunchDaemons/me.muendelein.mcname.plist
 
-sudo launchctl load -w /Library/LaunchDaemons/me.muendelein.randomname.plist
+sudo launchctl load -w /Library/LaunchDaemons/me.muendelein.mcname.plist
 ```
 
 
@@ -48,8 +48,7 @@ lname () {
 
 » lname 
 Linda Brown Buck - American biologist and Nobel laureate best known for her genetic and molecular analyses of the mechanisms of smell. https://en.wikipedia.org/wiki/Linda_B._Buck
-
-bash
+```
 
 
 
