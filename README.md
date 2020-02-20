@@ -7,9 +7,9 @@ every hour and I smirk very often which improved my life by roughly 1%.
 ## prerequisites
 
 You need to compile the go binary from 
-(moby)[https://github.com/moby/moby/blob/master/pkg/namesgenerator/cmd/names-generator/main.go]
+[moby](https://github.com/moby/moby/blob/master/pkg/namesgenerator/cmd/names-generator/main.go)
 to have the name generator in place. For this you need the go toolchain which
-you might install via the (official way)[https://golang.org/doc/install]
+you might install via the [official way](https://golang.org/doc/install)
 or via homebrew `brew install go`.
 
 ```bash
