@@ -43,7 +43,7 @@ are currently honering with your mac.
 
 ```bash 
 lname () {
-  curl -s https://raw.githubusercontent.com/moby/moby/master/pkg/namesgenerator/names-generator.go | grep -B 1 $(scutil --get ComputerName | cut -d - -f 3) | grep // | sed -e 's|\s*//||' | xargs
+  curl -s https://raw.githubusercontent.com/moby/moby/master/pkg/namesgenerator/names-generator.go | grep -B 1 $(scutil --get ComputerName | cut -d - -f 3) | grep // | sed -e 's|//||' | xargs
 }
 
 » lname 
