@@ -38,7 +38,7 @@ sudo launchctl load -w /Library/LaunchDaemons/me.muendelein.mcname.plist
 
 I also have a beautiful terminal one liner to grep through the moby source code
 to display the information from the moby name generator about the person you 
-are currently honering with your mac.
+are currently honoring with your mac.
 
 
 ```bash 
