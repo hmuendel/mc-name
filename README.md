@@ -1,8 +1,8 @@
 # mc-name
 
-Someone gave me the idea to use a funny name for your devices, cause my 
-bluetooth headphones read them all the time to me. My mac now changes its name 
-every hour and I smirk very often which improved my life by roughly 1%.
+Someone gave me the idea to use a funny names for your devices, cause my 
+bluetooth headphones reads them all the time to me. My mac now changes it's name 
+every hour and I smirk very often, which improves my life by roughly 1%.
 
 ## prerequisites
 
@@ -36,7 +36,7 @@ sudo launchctl load -w /Library/LaunchDaemons/me.muendelein.mcname.plist
 
 ## bonus
 
-I also have a beautiful terminal oneliner to grep through the moby source code
+I also have a beautiful terminal one liner to grep through the moby source code
 to display the information from the moby name generator about the person you 
 are currently honering with your mac.
 
